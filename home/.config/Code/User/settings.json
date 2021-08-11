@@ -1,0 +1,59 @@
+{
+    "editor.autoClosingBrackets": "always",
+    "workbench.colorTheme": "Solarized Light",
+    "editor.suggestSelection": "first",
+    "editor.smoothScrolling": true,
+    "editor.trimAutoWhitespace": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.enableSmartCommit": true,
+    "workbench.sideBar.location": "left",
+    "gitlens.codeLens.enabled": false,
+    "C_Cpp.intelliSenseEngine": "Disabled",
+    "clangd.path": "/home/mx007/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/11.0.0/clangd_11.0.0/bin/clangd",
+    "vscode_vibrancy.opacity": 1,
+    "vscode_vibrancy.type": "acrylic",
+    "vscode_vibrancy.imports": [
+    
+        "$theme-style$"
+    ],
+    "files.autoSave": "afterDelay",
+    "timing.insertConvertedTime": true,
+    "eslint.alwaysShowStatus": true,
+
+    "material-icon-theme.files.associations": {
+        "**.rr": "/home/mx007/.vscode/extensions/icons/rr"
+    },
+    "gotoNextPreviousMember.symbolKinds": [
+        "class",
+        "constant",
+        "constructor",
+        "enum",
+        "file",
+        "function",
+        "interface",
+        "method",
+        "module",
+        "namespace",
+        "package",
+        "property",
+        "string",
+        "struct",
+        "variable"
+    ],
+    "editor.inlineSuggest.enabled": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 15,
+    
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+        
+    }
+}
