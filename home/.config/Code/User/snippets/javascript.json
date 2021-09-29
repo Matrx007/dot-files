@@ -1,0 +1,66 @@
+{
+	// Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	
+	"lambda": {
+		"prefix": "lm",
+		"body": [
+			"($2) => {$1$0}"
+		]
+	},
+	"async-lambda": {
+		"prefix": "la",
+		"body": [
+			"async ($2) => {$1$0}"
+		]
+	},
+	"module export": {
+		"prefix": "mx",
+		"body": "module.exports.$0"
+	},
+	"if": {
+		"prefix": "i",
+		"body": [
+			"if($1) {",
+			"\t$0",
+			"}"
+		]
+	},
+	"else-if": {
+		"prefix": "ei",
+		"body": [
+			" else if($1) {",
+			"\t$0",
+			"}"
+		]
+	},
+	"else": {
+		"prefix": "e",
+		"body": [
+			" else {",
+			"\t$0",
+			"}"
+		]
+	},
+	"if-else": {
+		"prefix": "ie",
+		"body": [
+			"if($1) {",
+			"\t$0",
+			"} else {",
+			"\t",
+			"}"
+		]
+	}
+}
